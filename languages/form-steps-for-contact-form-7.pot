@@ -1,0 +1,1769 @@
+# Copyright (C) 2026 Amit Jyoti Shaw
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Form Steps for Contact Form 7 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/form-steps-for-contact-form-7/\n"
+"POT-Creation-Date: 2026-11-03T07:42:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: form-steps-for-contact-form-7\n"
+
+#. Plugin header
+#: form-steps-for-contact-form-7.php
+msgid "Adds a confirm screen, multi-step pages and a thank-you screen to Contact Form 7 forms, inside the same form. One switch per form."
+msgstr ""
+
+#. Plugin header
+#: form-steps-for-contact-form-7.php
+msgid "Amit Jyoti Shaw"
+msgstr ""
+
+#. Plugin header
+#: form-steps-for-contact-form-7.php
+msgid "https://github.com/Amitoshi"
+msgstr ""
+
+#: includes/class-admin-page.php:52 includes/class-admin-page.php:53
+msgid "Form Steps"
+msgstr ""
+
+#: includes/class-admin-page.php:115
+msgid "Saved"
+msgstr ""
+
+#: includes/class-admin-page.php:116
+msgid "Could not save. Reload the page and try again."
+msgstr ""
+
+#: includes/class-admin-page.php:117 includes/class-admin-page.php:549
+msgid "Live"
+msgstr ""
+
+#: includes/class-admin-page.php:118 includes/class-admin-page.php:549 includes/class-admin-page.php:988
+msgid "Off"
+msgstr ""
+
+#: includes/class-admin-page.php:119
+msgid "Copied"
+msgstr ""
+
+#: includes/class-admin-page.php:151 includes/class-admin-page.php:181 includes/class-admin-page.php:196
+msgid "You are not allowed to change these settings."
+msgstr ""
+
+#: includes/class-admin-page.php:270
+msgid "Form Steps is ready."
+msgstr ""
+
+#: includes/class-admin-page.php:271
+msgid "Its settings are under Contact → Form Steps. Turn on a confirm screen for any form with one switch."
+msgstr ""
+
+#: includes/class-admin-page.php:274 includes/class-migration.php:156
+msgid "Open Form Steps"
+msgstr ""
+
+#: includes/class-admin-page.php:275 includes/class-admin-page.php:1181
+msgid "Quick start"
+msgstr ""
+
+#: includes/class-admin-page.php:276
+msgid "Dismiss"
+msgstr ""
+
+#: includes/class-admin-page.php:296
+msgid "Example form created."
+msgstr ""
+
+#: includes/class-admin-page.php:297
+msgid "Its Form Steps settings and Form style are set. Edit anything you like, then save."
+msgstr ""
+
+#: includes/class-admin-page.php:301
+msgid "Open the draft page"
+msgstr ""
+
+#: includes/class-admin-page.php:302
+msgid "Preview the page"
+msgstr ""
+
+#: includes/class-admin-page.php:331 includes/class-admin-page.php:941
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin-page.php:332 includes/class-admin-page.php:371 includes/class-admin-page.php:903
+msgid "Examples"
+msgstr ""
+
+#: includes/class-admin-page.php:348 includes/class-editor-panel.php:195
+msgid "Help & examples"
+msgstr ""
+
+#: includes/class-admin-page.php:350
+msgid "Live demo"
+msgstr ""
+
+#: includes/class-admin-page.php:352 includes/class-examples.php:89
+msgid "Support"
+msgstr ""
+
+#: includes/class-admin-page.php:370
+msgid "Forms"
+msgstr ""
+
+#: includes/class-admin-page.php:372
+msgid "Defaults"
+msgstr ""
+
+#: includes/class-admin-page.php:373
+msgid "Import & export"
+msgstr ""
+
+#: includes/class-admin-page.php:374
+msgid "Help & About"
+msgstr ""
+
+#: includes/class-admin-page.php:387
+msgid "Form Steps for Contact Form 7"
+msgstr ""
+
+#: includes/class-admin-page.php:390
+msgid "Confirm screen, multi-step forms and thank-you screen for Contact Form 7."
+msgstr ""
+
+#: includes/class-admin-page.php:394
+msgid "Form Steps sections"
+msgstr ""
+
+#: includes/class-admin-page.php:433
+msgid "Settings saved."
+msgstr ""
+
+#: includes/class-admin-page.php:434
+msgid "Nothing was imported. Paste the full text exported from Form Steps."
+msgstr ""
+
+#. translators:%d: number of forms whose settings were imported.
+#: includes/class-admin-page.php:439
+#, php-format
+msgid "Settings imported. %d form matched by title."
+msgid_plural "Settings imported. %d forms matched by title."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-admin-page.php:479
+msgid "There are no contact forms yet."
+msgstr ""
+
+#: includes/class-admin-page.php:480
+msgid "Create a contact form"
+msgstr ""
+
+#: includes/class-admin-page.php:486
+msgid "Turn on the confirm screen for a form and it is live at once. For steps, button texts and the thank-you screen, open the form and use its Steps tab."
+msgstr ""
+
+#: includes/class-admin-page.php:495 includes/class-admin-page.php:938
+msgid "Form"
+msgstr ""
+
+#: includes/class-admin-page.php:496 includes/class-admin-page.php:988 includes/class-admin-page.php:1115 includes/class-editor-panel.php:237 includes/class-editor-panel.php:601
+msgid "Confirm screen"
+msgstr ""
+
+#: includes/class-admin-page.php:497 includes/class-editor-panel.php:35 includes/class-editor-panel.php:194 includes/class-editor-panel.php:379
+msgid "Steps"
+msgstr ""
+
+#: includes/class-admin-page.php:498
+msgid "Status"
+msgstr ""
+
+#. translators:%s: form title.
+#: includes/class-admin-page.php:513
+#, php-format
+msgid "Confirm screen for “%s”"
+msgstr ""
+
+#: includes/class-admin-page.php:529
+msgid "On by [confirm] tag"
+msgstr ""
+
+#. translators:%d: number of [step] tags.
+#: includes/class-admin-page.php:539
+#, php-format
+msgid "%d step tag"
+msgid_plural "%d step tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-admin-page.php:544
+msgid "One page"
+msgstr ""
+
+#: includes/class-admin-page.php:557
+msgid "Save changes"
+msgstr ""
+
+#: includes/class-admin-page.php:558
+msgid "Turn on the confirm screen for all forms"
+msgstr ""
+
+#: includes/class-admin-page.php:571 includes/class-editor-panel.php:100 includes/class-editor-panel.php:178
+msgid "Review button"
+msgstr ""
+
+#: includes/class-admin-page.php:572 includes/class-editor-panel.php:117 includes/class-editor-panel.php:179
+msgid "Back button"
+msgstr ""
+
+#: includes/class-admin-page.php:573 includes/class-editor-panel.php:180
+msgid "Send button on the confirm screen"
+msgstr ""
+
+#: includes/class-admin-page.php:574 includes/class-editor-panel.php:181
+msgid "Next button"
+msgstr ""
+
+#: includes/class-admin-page.php:575 includes/class-editor-panel.php:182
+msgid "Previous button"
+msgstr ""
+
+#: includes/class-admin-page.php:581
+msgid "These defaults apply to every form. Each form can override them in its Steps tab."
+msgstr ""
+
+#: includes/class-admin-page.php:583 includes/class-admin-page.php:1130 includes/class-editor-panel.php:338
+msgid "Button texts"
+msgstr ""
+
+#: includes/class-admin-page.php:589 includes/class-editor-panel.php:346
+msgid "Your submit button's text"
+msgstr ""
+
+#: includes/class-admin-page.php:595
+msgid "Display"
+msgstr ""
+
+#: includes/class-admin-page.php:598
+msgid "Progress display for steps"
+msgstr ""
+
+#: includes/class-admin-page.php:603
+msgid "Numbered steps with titles"
+msgstr ""
+
+#: includes/class-admin-page.php:604 includes/class-admin-page.php:891 includes/class-editor-panel.php:186
+msgid "Progress bar"
+msgstr ""
+
+#: includes/class-admin-page.php:605 includes/class-admin-page.php:892 includes/class-editor-panel.php:187
+msgid "None"
+msgstr ""
+
+#: includes/class-admin-page.php:620
+msgid "Empty optional fields on the confirm screen"
+msgstr ""
+
+#: includes/class-admin-page.php:623 includes/class-editor-panel.php:289 includes/class-editor-panel.php:291
+msgid "Show a dash"
+msgstr ""
+
+#: includes/class-admin-page.php:624 includes/class-editor-panel.php:289 includes/class-editor-panel.php:292
+msgid "Hide in the table"
+msgstr ""
+
+#: includes/class-admin-page.php:629
+msgid "Scrolling"
+msgstr ""
+
+#: includes/class-admin-page.php:631
+msgid "Scroll to the top of the form when the screen or step changes"
+msgstr ""
+
+#: includes/class-admin-page.php:636 includes/class-admin-page.php:996 includes/class-admin-page.php:1135
+msgid "Button design"
+msgstr ""
+
+#: includes/class-admin-page.php:637
+msgid "Used by every form whose Steps tab says \"Site default\"."
+msgstr ""
+
+#: includes/class-admin-page.php:652
+msgid "Save defaults"
+msgstr ""
+
+#: includes/class-admin-page.php:678
+msgid "Export"
+msgstr ""
+
+#: includes/class-admin-page.php:679
+msgid "Copy this text to move the site defaults and every form's Steps settings to another site."
+msgstr ""
+
+#: includes/class-admin-page.php:681
+msgid "Copy to clipboard"
+msgstr ""
+
+#: includes/class-admin-page.php:685 includes/class-admin-page.php:692
+msgid "Import"
+msgstr ""
+
+#: includes/class-admin-page.php:689
+msgid "Paste exported text here."
+msgstr ""
+
+#: includes/class-admin-page.php:691
+msgid "Also import form settings, matched to forms with the same title"
+msgstr ""
+
+#: includes/class-admin-page.php:705
+msgid "Colour and shape variables"
+msgstr ""
+
+#: includes/class-admin-page.php:706
+msgid "Set them in WordPress's Additional CSS: on .wpcf7 form.svfs-id-12 for the form with ID 12, or on .svfs-form for every form."
+msgstr ""
+
+#: includes/class-admin-page.php:708
+msgid "Button and progress color."
+msgstr ""
+
+#: includes/class-admin-page.php:709
+msgid "Text on filled buttons."
+msgstr ""
+
+#: includes/class-admin-page.php:710
+msgid "Filled button hover color."
+msgstr ""
+
+#: includes/class-admin-page.php:711
+msgid "Hover background of Back and Previous."
+msgstr ""
+
+#: includes/class-admin-page.php:712
+msgid "Button corners (Filled and Outline)."
+msgstr ""
+
+#: includes/class-admin-page.php:713
+msgid "Check icon on the thank-you templates."
+msgstr ""
+
+#: includes/class-admin-page.php:714
+msgid "Background of thank-you template cards."
+msgstr ""
+
+#: includes/class-admin-page.php:718
+msgid "Built-in Form styles"
+msgstr ""
+
+#: includes/class-admin-page.php:719
+msgid "Chosen in the Steps tab → Design → Form style. Each style takes its colors from these variables."
+msgstr ""
+
+#: includes/class-admin-page.php:721
+msgid "Classes added when a Form style is chosen."
+msgstr ""
+
+#: includes/class-admin-page.php:722
+msgid "Header band and its text."
+msgstr ""
+
+#: includes/class-admin-page.php:723
+msgid "Card background and the area around it in previews."
+msgstr ""
+
+#: includes/class-admin-page.php:724
+msgid "Main text and secondary text."
+msgstr ""
+
+#: includes/class-admin-page.php:725
+msgid "Borders, field background, light tint."
+msgstr ""
+
+#: includes/class-admin-page.php:726
+msgid "Header, two-column rows and required badges used in the example forms."
+msgstr ""
+
+#: includes/class-admin-page.php:730
+msgid "Classes on the form element"
+msgstr ""
+
+#: includes/class-admin-page.php:731
+msgid "Use them to style a screen or a choice made in the Steps tab."
+msgstr ""
+
+#: includes/class-admin-page.php:733
+msgid "Every form that uses the confirm screen or steps."
+msgstr ""
+
+#: includes/class-admin-page.php:734
+msgid "One form, by its ID. Use it in Additional CSS to style only that form."
+msgstr ""
+
+#: includes/class-admin-page.php:735
+msgid "The visitor is filling in the form."
+msgstr ""
+
+#: includes/class-admin-page.php:736
+msgid "The confirm screen is showing."
+msgstr ""
+
+#: includes/class-admin-page.php:737
+msgid "The form was sent."
+msgstr ""
+
+#: includes/class-admin-page.php:738
+msgid "The form is split with [step] tags."
+msgstr ""
+
+#: includes/class-admin-page.php:739
+msgid "Confirm style chosen."
+msgstr ""
+
+#: includes/class-admin-page.php:740
+msgid "Button style chosen."
+msgstr ""
+
+#: includes/class-admin-page.php:741
+msgid "Button position chosen."
+msgstr ""
+
+#: includes/class-admin-page.php:745
+msgid "Buttons"
+msgstr ""
+
+#: includes/class-admin-page.php:748
+msgid "Contact Form 7's submit button: Review while filling in, Send on the confirm screen."
+msgstr ""
+
+#: includes/class-admin-page.php:749
+msgid "Back on the confirm screen."
+msgstr ""
+
+#: includes/class-admin-page.php:750
+msgid "Next and Previous in steps."
+msgstr ""
+
+#: includes/class-admin-page.php:751
+msgid "Review button placed with a [confirm] tag."
+msgstr ""
+
+#: includes/class-admin-page.php:752
+msgid "Row holding Review/Send and Back, when it holds only buttons."
+msgstr ""
+
+#: includes/class-admin-page.php:753
+msgid "Row holding Previous and Next."
+msgstr ""
+
+#: includes/class-admin-page.php:757 includes/class-admin-page.php:993 includes/class-admin-page.php:1150 includes/class-editor-panel.php:381
+msgid "Progress display"
+msgstr ""
+
+#: includes/class-admin-page.php:760
+msgid "The whole progress display."
+msgstr ""
+
+#: includes/class-admin-page.php:761
+msgid "One step; also .is-current and .is-done."
+msgstr ""
+
+#: includes/class-admin-page.php:762
+msgid "The number circle."
+msgstr ""
+
+#: includes/class-admin-page.php:763
+msgid "The step title."
+msgstr ""
+
+#: includes/class-admin-page.php:764
+msgid "The bar and its filled part."
+msgstr ""
+
+#: includes/class-admin-page.php:765
+msgid "Text under the bar, \"Step 1 of 3\"."
+msgstr ""
+
+#: includes/class-admin-page.php:769
+msgid "Confirm screen and thank-you screen"
+msgstr ""
+
+#: includes/class-admin-page.php:772
+msgid "Heading and message above the answers."
+msgstr ""
+
+#: includes/class-admin-page.php:773
+msgid "The heading and the message."
+msgstr ""
+
+#: includes/class-admin-page.php:774
+msgid "An answer shown in place of its field (In place style)."
+msgstr ""
+
+#: includes/class-admin-page.php:775
+msgid "The summary table, its labels and answers."
+msgstr ""
+
+#: includes/class-admin-page.php:776
+msgid "The thank-you screen."
+msgstr ""
+
+#: includes/class-admin-page.php:780
+msgid "Thank-you templates"
+msgstr ""
+
+#: includes/class-admin-page.php:781
+msgid "Ready-made classes for your thank-you HTML. [field-name] shows what the visitor sent."
+msgstr ""
+
+#: includes/class-admin-page.php:783
+msgid "Centered block with padding."
+msgstr ""
+
+#: includes/class-admin-page.php:784
+msgid "Adds a border and rounded corners."
+msgstr ""
+
+#: includes/class-admin-page.php:785
+msgid "Green check circle (an empty span)."
+msgstr ""
+
+#: includes/class-admin-page.php:786
+msgid "Heading and paragraph."
+msgstr ""
+
+#: includes/class-admin-page.php:787
+msgid "Numbered list of next steps (an ol)."
+msgstr ""
+
+#: includes/class-admin-page.php:788
+msgid "Row of links, main button, text link."
+msgstr ""
+
+#: includes/class-admin-page.php:789
+msgid "An answer filled in from the sent form."
+msgstr ""
+
+#: includes/class-admin-page.php:803
+msgid "Class or variable"
+msgstr ""
+
+#: includes/class-admin-page.php:804
+msgid "What it is"
+msgstr ""
+
+#: includes/class-admin-page.php:805
+msgid "Example"
+msgstr ""
+
+#: includes/class-admin-page.php:821
+msgid "What the plugin adds to your form"
+msgstr ""
+
+#: includes/class-admin-page.php:822
+msgid "A multi-step form with the confirm screen on, simplified. Your own fields and markup stay as you wrote them."
+msgstr ""
+
+#: includes/class-admin-page.php:888 includes/class-editor-panel.php:260
+msgid "In place"
+msgstr ""
+
+#: includes/class-admin-page.php:889 includes/class-editor-panel.php:261 includes/class-examples.php:112 includes/class-examples.php:183
+msgid "Summary table"
+msgstr ""
+
+#: includes/class-admin-page.php:890 includes/class-editor-panel.php:185 includes/class-examples.php:316
+msgid "Numbered steps"
+msgstr ""
+
+#: includes/class-admin-page.php:893 includes/class-editor-panel.php:415
+msgid "Message below the form"
+msgstr ""
+
+#: includes/class-admin-page.php:894 includes/class-admin-page.php:1145 includes/class-editor-panel.php:416 includes/class-editor-panel.php:423 includes/class-examples.php:112 includes/class-examples.php:183 includes/class-examples.php:254
+msgid "Thank-you screen"
+msgstr ""
+
+#: includes/class-admin-page.php:895 includes/class-editor-panel.php:417
+msgid "Go to another page"
+msgstr ""
+
+#: includes/class-admin-page.php:900
+msgid "Complete forms with their design. Try one live, copy its parts, or create it with one click and edit it like any other form."
+msgstr ""
+
+#: includes/class-admin-page.php:927
+msgid "Create this form"
+msgstr ""
+
+#: includes/class-admin-page.php:929
+msgid "Also create a draft page with it"
+msgstr ""
+
+#: includes/class-admin-page.php:934
+msgid "Example parts"
+msgstr ""
+
+#: includes/class-admin-page.php:937 includes/class-editor-panel.php:598
+msgid "Live preview"
+msgstr ""
+
+#: includes/class-admin-page.php:939
+msgid "CSS"
+msgstr ""
+
+#: includes/class-admin-page.php:940
+msgid "HTML output"
+msgstr ""
+
+#: includes/class-admin-page.php:942
+msgid "Restyle with AI"
+msgstr ""
+
+#: includes/class-admin-page.php:952
+msgid "This is the real form. Press Review, Next, Back and Send: nothing is saved or sent."
+msgstr ""
+
+#: includes/class-admin-page.php:954
+msgid "Desktop"
+msgstr ""
+
+#: includes/class-admin-page.php:955 includes/class-examples.php:221
+msgid "Phone"
+msgstr ""
+
+#: includes/class-admin-page.php:956
+msgid "Start over"
+msgstr ""
+
+#: includes/class-admin-page.php:965
+msgid "Paste into Contact Form 7 → your form → Form tab."
+msgstr ""
+
+#: includes/class-admin-page.php:969
+msgid "This design is built in: \"Create this form\" selects it, or choose it in any form's Steps tab → Design → Form style. To change its colors, paste this into WordPress's Additional CSS and edit the values."
+msgstr ""
+
+#: includes/class-admin-page.php:974
+msgid "The markup in the live preview right now, with the plugin's classes highlighted. Go to the confirm screen or another step in the preview, then refresh to see that markup."
+msgstr ""
+
+#: includes/class-admin-page.php:976
+msgid "Refresh from preview"
+msgstr ""
+
+#: includes/class-admin-page.php:977 includes/class-admin-page.php:1038
+msgid "Copy"
+msgstr ""
+
+#: includes/class-admin-page.php:985
+msgid "\"Create this form\" sets all of these for you. To build it by hand, set them in the form's Steps tab."
+msgstr ""
+
+#: includes/class-admin-page.php:990 includes/class-editor-panel.php:268
+msgid "Heading"
+msgstr ""
+
+#: includes/class-admin-page.php:995 includes/class-admin-page.php:1155 includes/class-editor-panel.php:405
+msgid "After sending"
+msgstr ""
+
+#: includes/class-admin-page.php:1003
+msgid "Thank-you screen HTML"
+msgstr ""
+
+#: includes/class-admin-page.php:1004
+msgid "Paste into Steps tab → After sending → Thank-you screen."
+msgstr ""
+
+#: includes/class-admin-page.php:1010
+msgid "Describe the look you want: brand colors, rounded or sharp, light or dark, font feel."
+msgstr ""
+
+#: includes/class-admin-page.php:1011
+msgid "Copy the prompt and paste it into ChatGPT, Claude or Gemini."
+msgstr ""
+
+#: includes/class-admin-page.php:1012
+msgid "Create this form, then paste the CSS you get into WordPress's Additional CSS (Appearance → Customize, or Appearance → Editor → Styles)."
+msgstr ""
+
+#: includes/class-admin-page.php:1014
+msgid "The look you want"
+msgstr ""
+
+#: includes/class-admin-page.php:1015
+msgid "For example: our brand color #ff6a00, white card, soft shadows, rounded inputs, friendly and modern"
+msgstr ""
+
+#: includes/class-admin-page.php:1017 includes/class-editor-panel.php:462
+msgid "Copy AI prompt"
+msgstr ""
+
+#: includes/class-admin-page.php:1091
+msgid "From the same developer"
+msgstr ""
+
+#: includes/class-admin-page.php:1095
+msgid "Conditional Steps"
+msgstr ""
+
+#: includes/class-admin-page.php:1096
+msgid "Coming soon"
+msgstr ""
+
+#: includes/class-admin-page.php:1098
+msgid "Show or hide fields and whole steps based on earlier answers. A free add-on for Form Steps, from Amit Jyoti Shaw."
+msgstr ""
+
+#: includes/class-admin-page.php:1101
+msgid "Learn more"
+msgstr ""
+
+#: includes/class-admin-page.php:1116
+msgid "Turn it on in Contact → Form Steps or in the form's Steps tab. The submit button becomes Review. After Review the visitor sees the answers with Back and Send buttons. Required fields are checked first, exactly as Contact Form 7 does."
+msgstr ""
+
+#: includes/class-admin-page.php:1120
+msgid "In place or summary table"
+msgstr ""
+
+#: includes/class-admin-page.php:1121
+msgid "In place keeps your form and theme design and swaps every field for its answer. Summary table hides the form and shows the answers as a two-column table. Choose it in the form's Steps tab."
+msgstr ""
+
+#: includes/class-admin-page.php:1125
+msgid "Renaming labels in the summary table"
+msgstr ""
+
+#: includes/class-admin-page.php:1126
+msgid "The table finds the label written next to each field, for example \"Your name\" in <label> Your name [text your-name] </label>. In the Steps tab, the table \"Rename labels in the summary table\" lists every field with the label found. Type a new name to replace it."
+msgstr ""
+
+#: includes/class-admin-page.php:1131
+msgid "Set site-wide texts in the Defaults tab. Each form can override them in its Steps tab. An empty box always means \"use the default\"."
+msgstr ""
+
+#: includes/class-admin-page.php:1136
+msgid "Choose Theme default, Filled, Outline or Rounded buttons, their colors, their position (left, centre, right, full width, or Back left and Send right), their order, and whether Back and Previous are shown. Set site-wide choices in the Defaults tab; each form can override them in its Steps tab."
+msgstr ""
+
+#: includes/class-admin-page.php:1140
+msgid "Form styles and your own CSS"
+msgstr ""
+
+#: includes/class-admin-page.php:1141
+msgid "Choose a built-in Form style (Navy, Teal, Warm, Sky or Dark card) in the form's Steps tab → Design, and set the button colors there. For anything more, use WordPress's Additional CSS: .wpcf7 form.svfs-id-12 targets the form with ID 12. The reference below lists every class."
+msgstr ""
+
+#: includes/class-admin-page.php:1146
+msgid "Choose \"Thank-you screen\" under After sending. Start from one of four templates, edit the HTML, and check the live preview. Write a field name in square brackets, for example [your-name], to show what the visitor sent. \"Create with AI\" copies a prompt with all classes and fields for ChatGPT, Claude or Gemini."
+msgstr ""
+
+#: includes/class-admin-page.php:1151
+msgid "Forms split with [step] tags show their progress at the top: numbered steps with titles, a bar with \"Step 1 of 3\", or nothing. When the confirm screen is on, it is the last step."
+msgstr ""
+
+#: includes/class-admin-page.php:1156
+msgid "Keep Contact Form 7's message below the form, replace the whole form with a thank-you screen, or send the visitor to another page. The email is always sent first."
+msgstr ""
+
+#: includes/class-admin-page.php:1167
+msgid "Starts a new step with this title. Put it on its own line. All step tags must be at the same level of the form."
+msgstr ""
+
+#: includes/class-admin-page.php:1168
+msgid "Optional Review button at an exact place. Same tag as \"Contact Form 7 add confirm\"."
+msgstr ""
+
+#: includes/class-admin-page.php:1169
+msgid "Optional Back button for the confirm screen. Same tag as \"Contact Form 7 add confirm\"."
+msgstr ""
+
+#: includes/class-admin-page.php:1172
+msgid "Field is not shown on the confirm screen. \"avoid-confirm\" from Confirm Plus works too."
+msgstr ""
+
+#: includes/class-admin-page.php:1173
+msgid "Element stays visible on every screen and belongs to no step, for example a form header."
+msgstr ""
+
+#: includes/class-admin-page.php:1174
+msgid "Shown only while filling in the form."
+msgstr ""
+
+#: includes/class-admin-page.php:1175
+msgid "Shown only on the confirm screen."
+msgstr ""
+
+#: includes/class-admin-page.php:1176
+msgid "Shown only after sending."
+msgstr ""
+
+#: includes/class-admin-page.php:1183
+msgid "Open the Forms tab and turn on the confirm screen for a form. It is live at once."
+msgstr ""
+
+#: includes/class-admin-page.php:1184
+msgid "For several steps, open the form, click the \"step\" button in the Form tab, and add a step tag where each new step begins."
+msgstr ""
+
+#: includes/class-admin-page.php:1185
+msgid "Fine-tune button texts, the confirm style and the thank-you screen in the form's Steps tab."
+msgstr ""
+
+#: includes/class-admin-page.php:1187
+msgid "Review and Next only check the entries. No email is sent, no captcha is used up, and add-ons that save or forward entries run once, when the visitor presses Send."
+msgstr ""
+
+#: includes/class-admin-page.php:1189
+msgid "Settings explained"
+msgstr ""
+
+#: includes/class-admin-page.php:1204
+msgid "Form tags"
+msgstr ""
+
+#: includes/class-admin-page.php:1211
+msgid "Helper classes for your form"
+msgstr ""
+
+#: includes/class-admin-page.php:1218
+msgid "Styling reference"
+msgstr ""
+
+#: includes/class-admin-page.php:1219
+msgid "Every class and variable the plugin uses, with a rule you can copy into WordPress's Additional CSS (Appearance → Customize, or Appearance → Editor → Styles). In the examples, 12 is the form ID."
+msgstr ""
+
+#: includes/class-admin-page.php:1222
+msgid "Switching from another confirm plugin"
+msgstr ""
+
+#: includes/class-admin-page.php:1223
+msgid "Forms built for \"Contact Form 7 add confirm\" and its successors work without edits: the same tags and classes are supported. Deactivate the old plugin; Form Steps shows a button for it when it detects one."
+msgstr ""
+
+#: includes/class-admin-page.php:1227
+msgid "About"
+msgstr ""
+
+#: includes/class-admin-page.php:1229
+msgid "WordPress developer for about four years, with more than 300 website projects delivered."
+msgstr ""
+
+#: includes/class-admin-page.php:1234
+msgid "Free plugin. No tracking, no ads, no account needed."
+msgstr ""
+
+#: includes/class-admin-page.php:1236
+msgid "Get support"
+msgstr ""
+
+#: includes/class-admin-page.php:1237
+msgid "Leave a review"
+msgstr ""
+
+#: includes/class-admin-page.php:1239
+msgid "Need a custom form flow or a WordPress site built? Amit Jyoti Shaw takes on client projects."
+msgstr ""
+
+#: includes/class-design.php:64
+msgid "None (your theme's look)"
+msgstr ""
+
+#: includes/class-design.php:65
+msgid "Navy card"
+msgstr ""
+
+#: includes/class-design.php:66
+msgid "Teal card"
+msgstr ""
+
+#: includes/class-design.php:67
+msgid "Warm card"
+msgstr ""
+
+#: includes/class-design.php:68
+msgid "Sky card"
+msgstr ""
+
+#: includes/class-design.php:69
+msgid "Dark card"
+msgstr ""
+
+#: includes/class-editor-panel.php:68
+msgid "step"
+msgstr ""
+
+#: includes/class-editor-panel.php:69
+msgid "confirm"
+msgstr ""
+
+#: includes/class-editor-panel.php:70
+msgid "back"
+msgstr ""
+
+#: includes/class-editor-panel.php:83
+msgid "Step"
+msgstr ""
+
+#: includes/class-editor-panel.php:84
+msgid "Starts a new step. Everything after this tag, up to the next step tag, is shown as one step with Next and Previous buttons. Put each step tag on its own line, at the same level of the form."
+msgstr ""
+
+#: includes/class-editor-panel.php:85
+msgid "Step title"
+msgstr ""
+
+#: includes/class-editor-panel.php:101
+msgid "Places the Review button exactly where you want it. Optional: without it, the form's submit button becomes the Review button when the confirm screen is on."
+msgstr ""
+
+#: includes/class-editor-panel.php:102 includes/class-editor-panel.php:119
+msgid "Label"
+msgstr ""
+
+#: includes/class-editor-panel.php:118
+msgid "Places the Back button of the confirm screen. Use it together with the Review button tag."
+msgstr ""
+
+#: includes/class-editor-panel.php:198
+msgid "Add a confirm screen before sending, split the form into steps, and choose what happens after sending. Changes are saved with the Save button of this form."
+msgstr ""
+
+#: includes/class-editor-panel.php:203
+msgid "This form takes payments with Stripe. Payment forms need Contact Form 7's own flow, so the confirm screen and steps are not recommended here."
+msgstr ""
+
+#: includes/class-editor-panel.php:211
+msgid "Confirm screen: on, because the form contains a [confirm] tag."
+msgstr ""
+
+#: includes/class-editor-panel.php:213
+msgid "Confirm screen: on."
+msgstr ""
+
+#: includes/class-editor-panel.php:215
+msgid "Confirm screen: off."
+msgstr ""
+
+#. translators:%d: number of [step] tags in the form.
+#: includes/class-editor-panel.php:225
+#, php-format
+msgid "Steps: %d step tag found."
+msgid_plural "Steps: %d step tags found."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-editor-panel.php:230
+msgid "Steps: not split. To split the form, add [step \"Title\"] tags in the Form tab, or use the \"step\" button there."
+msgstr ""
+
+#: includes/class-editor-panel.php:242
+msgid "Show a confirm screen before sending"
+msgstr ""
+
+#: includes/class-editor-panel.php:244
+msgid "The submit button becomes a Review button. Visitors see their answers, then press Send or go Back to edit. Review only checks the form: no email, no captcha used."
+msgstr ""
+
+#: includes/class-editor-panel.php:252
+msgid "How entries are shown"
+msgstr ""
+
+#: includes/class-editor-panel.php:253
+msgid "In place keeps your own form design and swaps each field for its answer. Summary table hides the form and shows a two-column table of labels and answers."
+msgstr ""
+
+#: includes/class-editor-panel.php:260
+msgid "Each field is replaced by what the visitor typed. Your layout stays as designed. Recommended."
+msgstr ""
+
+#: includes/class-editor-panel.php:261
+msgid "A clean table of labels and answers replaces the form. Labels can be renamed below."
+msgstr ""
+
+#: includes/class-editor-panel.php:269
+msgid "Optional, for example: Check your entries"
+msgstr ""
+
+#: includes/class-editor-panel.php:272 includes/class-examples.php:91
+msgid "Message"
+msgstr ""
+
+#: includes/class-editor-panel.php:274 includes/class-form-render.php:359
+msgid "Please check your entries. If everything is correct, press Send."
+msgstr ""
+
+#: includes/class-editor-panel.php:275
+msgid "Leave empty to use the text shown in grey."
+msgstr ""
+
+#: includes/class-editor-panel.php:279
+msgid "Empty optional fields"
+msgstr ""
+
+#. translators:%s: the site-wide choice, for example "Show a dash".
+#: includes/class-editor-panel.php:288 includes/class-editor-panel.php:567
+#, php-format
+msgid "Site default (%s)"
+msgstr ""
+
+#: includes/class-editor-panel.php:303
+msgid "Rename labels in the summary table"
+msgstr ""
+
+#: includes/class-editor-panel.php:304
+msgid "The table uses the label found next to each field in your form. Type a new name to show something else, for example \"Your question\" instead of \"Message\". Leave a box empty to keep the label found."
+msgstr ""
+
+#: includes/class-editor-panel.php:306
+msgid "Used only when \"Summary table\" is chosen above."
+msgstr ""
+
+#: includes/class-editor-panel.php:310
+msgid "Field"
+msgstr ""
+
+#: includes/class-editor-panel.php:311
+msgid "Label found in your form"
+msgstr ""
+
+#: includes/class-editor-panel.php:312
+msgid "Show in the table as"
+msgstr ""
+
+#: includes/class-editor-panel.php:324
+#, php-format
+msgid "New label for %s"
+msgstr ""
+
+#: includes/class-editor-panel.php:340
+msgid "Leave empty to use the site defaults shown in grey. The Send button keeps the text of your form's submit button unless you set one here."
+msgstr ""
+
+#: includes/class-editor-panel.php:341
+msgid "Review and Back appear with the confirm screen. Next and Previous appear on forms split with step tags. Site-wide texts are under Contact → Form Steps → Defaults."
+msgstr ""
+
+#: includes/class-editor-panel.php:357
+msgid "Design"
+msgstr ""
+
+#: includes/class-editor-panel.php:359
+msgid "A built-in Form style for the whole form, and the style, position and visibility of its buttons. The button preview updates as you change them."
+msgstr ""
+
+#: includes/class-editor-panel.php:360
+msgid "Theme default keeps your theme's buttons. Filled, Outline and Rounded use your colors. Position and order apply to the row that holds the buttons, when that row contains only buttons."
+msgstr ""
+
+#: includes/class-editor-panel.php:382
+msgid "Shown above forms split with [step] tags. Numbered steps list every step title; the bar shows \"Step 2 of 4\". On phones the numbers shrink to fit."
+msgstr ""
+
+#: includes/class-editor-panel.php:390
+msgid "Site default"
+msgstr ""
+
+#: includes/class-editor-panel.php:392
+#, php-format
+msgid "Currently: %s"
+msgstr ""
+
+#: includes/class-editor-panel.php:395
+msgid "Numbers with step titles."
+msgstr ""
+
+#: includes/class-editor-panel.php:396
+msgid "A bar with \"Step 1 of 3\"."
+msgstr ""
+
+#: includes/class-editor-panel.php:397
+msgid "No progress display."
+msgstr ""
+
+#: includes/class-editor-panel.php:407
+msgid "What the visitor sees after pressing Send"
+msgstr ""
+
+#: includes/class-editor-panel.php:408
+msgid "The email is always sent first. Then Contact Form 7's green message appears, or the form is replaced by your thank-you screen, or the visitor goes to another page."
+msgstr ""
+
+#: includes/class-editor-panel.php:415
+msgid "Contact Form 7's normal message. Default."
+msgstr ""
+
+#: includes/class-editor-panel.php:416
+msgid "The whole form is replaced by your own text."
+msgstr ""
+
+#: includes/class-editor-panel.php:417
+msgid "For example a thank-you page."
+msgstr ""
+
+#: includes/class-editor-panel.php:424
+msgid "Start from a template, change the text, and see the result below. Answers such as [your-name] are filled in with what the visitor sent. The templates use the button colors from Button design."
+msgstr ""
+
+#: includes/class-editor-panel.php:427
+msgid "1. Start from a template"
+msgstr ""
+
+#: includes/class-editor-panel.php:433
+msgid "Use this template"
+msgstr ""
+
+#: includes/class-editor-panel.php:438
+msgid "2. Edit the HTML"
+msgstr ""
+
+#: includes/class-editor-panel.php:441
+msgid "Insert an answer"
+msgstr ""
+
+#: includes/class-editor-panel.php:443
+msgid "Insert an answer…"
+msgstr ""
+
+#: includes/class-editor-panel.php:449
+msgid "Create with AI"
+msgstr ""
+
+#: includes/class-editor-panel.php:453
+msgid "Let ChatGPT, Claude or Gemini write it"
+msgstr ""
+
+#: includes/class-editor-panel.php:455
+msgid "Describe what you want (optional)."
+msgstr ""
+
+#: includes/class-editor-panel.php:456
+msgid "Copy the prompt and paste it into your AI tool."
+msgstr ""
+
+#: includes/class-editor-panel.php:457
+msgid "Paste the HTML it returns into the box below. If it also returns CSS, paste that into WordPress's Additional CSS: Appearance → Customize, or Appearance → Editor → Styles in block themes."
+msgstr ""
+
+#: includes/class-editor-panel.php:459
+msgid "What you want"
+msgstr ""
+
+#: includes/class-editor-panel.php:460
+msgid "For example: friendly tone, dark green, show the next three steps and a button to our pricing page /pricing/"
+msgstr ""
+
+#: includes/class-editor-panel.php:467
+msgid "Thank you! We received your message and will reply within one business day."
+msgstr ""
+
+#: includes/class-editor-panel.php:468
+msgid "Plain text or HTML. HTML allowed in posts is allowed here; scripts and forms are removed when you save."
+msgstr ""
+
+#: includes/class-editor-panel.php:470
+msgid "3. Preview"
+msgstr ""
+
+#: includes/class-editor-panel.php:470
+msgid "(answers shown with sample values)"
+msgstr ""
+
+#: includes/class-editor-panel.php:472
+msgid "Thank-you screen preview"
+msgstr ""
+
+#: includes/class-editor-panel.php:475
+msgid "Page address"
+msgstr ""
+
+#: includes/class-editor-panel.php:477
+msgid "The email is sent first, then the visitor goes to this page."
+msgstr ""
+
+#: includes/class-editor-panel.php:482
+msgid "All forms and site defaults: Contact → Form Steps"
+msgstr ""
+
+#: includes/class-editor-panel.php:501
+msgid "Form style"
+msgstr ""
+
+#: includes/class-editor-panel.php:505
+msgid "Button style"
+msgstr ""
+
+#: includes/class-editor-panel.php:507
+msgid "Theme default"
+msgstr ""
+
+#: includes/class-editor-panel.php:508
+msgid "Filled"
+msgstr ""
+
+#: includes/class-editor-panel.php:509
+msgid "Outline"
+msgstr ""
+
+#: includes/class-editor-panel.php:510
+msgid "Rounded"
+msgstr ""
+
+#: includes/class-editor-panel.php:514
+msgid "Position"
+msgstr ""
+
+#: includes/class-editor-panel.php:516
+msgid "Left"
+msgstr ""
+
+#: includes/class-editor-panel.php:517
+msgid "Centre"
+msgstr ""
+
+#: includes/class-editor-panel.php:518
+msgid "Right"
+msgstr ""
+
+#: includes/class-editor-panel.php:519
+msgid "Full width"
+msgstr ""
+
+#: includes/class-editor-panel.php:520
+msgid "Split: Back left, Send right"
+msgstr ""
+
+#: includes/class-editor-panel.php:524
+msgid "Order"
+msgstr ""
+
+#: includes/class-editor-panel.php:526
+msgid "Back, then Send"
+msgstr ""
+
+#: includes/class-editor-panel.php:527
+msgid "Send, then Back"
+msgstr ""
+
+#: includes/class-editor-panel.php:531
+msgid "Back button on the confirm screen"
+msgstr ""
+
+#: includes/class-editor-panel.php:533 includes/class-editor-panel.php:540
+msgid "Show"
+msgstr ""
+
+#: includes/class-editor-panel.php:534 includes/class-editor-panel.php:541
+msgid "Hide"
+msgstr ""
+
+#: includes/class-editor-panel.php:538
+msgid "Previous buttons in steps"
+msgstr ""
+
+#: includes/class-editor-panel.php:546
+msgid "Button color"
+msgstr ""
+
+#: includes/class-editor-panel.php:546
+msgid "Also used by the progress display."
+msgstr ""
+
+#: includes/class-editor-panel.php:547
+msgid "Text on buttons"
+msgstr ""
+
+#: includes/class-editor-panel.php:548
+msgid "Hover color"
+msgstr ""
+
+#: includes/class-editor-panel.php:589
+msgid "Clear"
+msgstr ""
+
+#: includes/class-editor-panel.php:593
+msgid "Colors apply to the Filled, Outline and Rounded styles and to the progress display. Leave empty for the default."
+msgstr ""
+
+#: includes/class-editor-panel.php:606
+msgid "A step in a multi-step form"
+msgstr ""
+
+#: includes/class-editor-panel.php:613
+msgid "\"Theme default\" keeps your theme's own buttons, which look plain here because the admin does not load your theme."
+msgstr ""
+
+#: includes/class-editor-panel.php:630
+msgid "Simple"
+msgstr ""
+
+#: includes/class-editor-panel.php:636
+msgid "Thank you!"
+msgstr ""
+
+#: includes/class-editor-panel.php:637
+msgid "We received your message and will reply within one business day."
+msgstr ""
+
+#: includes/class-editor-panel.php:643
+msgid "Check icon"
+msgstr ""
+
+#: includes/class-editor-panel.php:651
+msgid "Thanks, [your-name]!"
+msgstr ""
+
+#: includes/class-editor-panel.php:653
+msgid "Your message is on its way. We will reply to <strong>[your-email]</strong> soon."
+msgstr ""
+
+#: includes/class-editor-panel.php:659
+msgid "What happens next"
+msgstr ""
+
+#: includes/class-editor-panel.php:666
+msgid "Request received"
+msgstr ""
+
+#: includes/class-editor-panel.php:668
+msgid "Thanks, [your-name]. Here is what happens next:"
+msgstr ""
+
+#: includes/class-editor-panel.php:670
+msgid "Today"
+msgstr ""
+
+#: includes/class-editor-panel.php:670
+msgid "We read your request."
+msgstr ""
+
+#: includes/class-editor-panel.php:672
+msgid "Within one business day"
+msgstr ""
+
+#: includes/class-editor-panel.php:672
+msgid "We email you at [your-email]."
+msgstr ""
+
+#: includes/class-editor-panel.php:673
+msgid "Then"
+msgstr ""
+
+#: includes/class-editor-panel.php:673
+msgid "We agree on the next steps together."
+msgstr ""
+
+#: includes/class-editor-panel.php:680
+msgid "With a button"
+msgstr ""
+
+#: includes/class-editor-panel.php:687
+msgid "All done!"
+msgstr ""
+
+#: includes/class-editor-panel.php:688
+msgid "Thank you for getting in touch. We will be in touch shortly."
+msgstr ""
+
+#: includes/class-editor-panel.php:689
+msgid "Back to home"
+msgstr ""
+
+#: includes/class-editor-panel.php:745
+msgid "Replace the current thank-you text with this template?"
+msgstr ""
+
+#: includes/class-editor-panel.php:746
+msgid "Copied. Paste it into your AI tool."
+msgstr ""
+
+#: includes/class-examples.php:55
+msgid "Contact form with confirm screen"
+msgstr ""
+
+#: includes/class-examples.php:56
+msgid "A classic contact form. Review shows every answer in place, then Send."
+msgstr ""
+
+#: includes/class-examples.php:57 includes/class-examples.php:254 includes/class-examples.php:316
+msgid "Confirm screen in place"
+msgstr ""
+
+#: includes/class-examples.php:57
+msgid "Split buttons"
+msgstr ""
+
+#: includes/class-examples.php:57
+msgid "Message after sending"
+msgstr ""
+
+#: includes/class-examples.php:76
+msgid "Get in touch"
+msgstr ""
+
+#: includes/class-examples.php:77
+msgid "We reply within one business day."
+msgstr ""
+
+#: includes/class-examples.php:81 includes/class-examples.php:138 includes/class-examples.php:218 includes/class-examples.php:341
+msgid "Your name"
+msgstr ""
+
+#: includes/class-examples.php:84 includes/class-examples.php:145 includes/class-examples.php:225 includes/class-examples.php:344
+msgid "Your email"
+msgstr ""
+
+#: includes/class-examples.php:88
+msgid "Topic"
+msgstr ""
+
+#: includes/class-examples.php:89
+msgid "General question"
+msgstr ""
+
+#: includes/class-examples.php:89
+msgid "Sales"
+msgstr ""
+
+#: includes/class-examples.php:94
+msgid "I agree that my data is used to answer my request."
+msgstr ""
+
+#: includes/class-examples.php:96 includes/class-global-settings.php:59
+msgid "Send"
+msgstr ""
+
+#: includes/class-examples.php:102
+msgid "Please check your message"
+msgstr ""
+
+#: includes/class-examples.php:110
+msgid "Multi-step quote request"
+msgstr ""
+
+#: includes/class-examples.php:111
+msgid "Three short steps with a progress bar, a summary table, then a thank-you screen with next steps."
+msgstr ""
+
+#: includes/class-examples.php:112
+msgid "3 steps + progress bar"
+msgstr ""
+
+#: includes/class-examples.php:131
+msgid "Request a quote"
+msgstr ""
+
+#: includes/class-examples.php:132
+msgid "Three quick steps. It takes about a minute."
+msgstr ""
+
+#: includes/class-examples.php:135
+msgid "About you"
+msgstr ""
+
+#: includes/class-examples.php:141
+msgid "Company"
+msgstr ""
+
+#: includes/class-examples.php:148
+msgid "Project"
+msgstr ""
+
+#: includes/class-examples.php:150
+msgid "What do you need?"
+msgstr ""
+
+#: includes/class-examples.php:151
+msgid "New website"
+msgstr ""
+
+#: includes/class-examples.php:151
+msgid "Redesign"
+msgstr ""
+
+#: includes/class-examples.php:151
+msgid "Online shop"
+msgstr ""
+
+#: includes/class-examples.php:151
+msgid "Maintenance"
+msgstr ""
+
+#: includes/class-examples.php:153
+msgid "Tell us about the project"
+msgstr ""
+
+#: includes/class-examples.php:156 includes/class-examples.php:158
+msgid "Budget"
+msgstr ""
+
+#: includes/class-examples.php:159
+msgid "Under $2,000"
+msgstr ""
+
+#: includes/class-examples.php:159
+msgid "Over $5,000"
+msgstr ""
+
+#: includes/class-examples.php:161
+msgid "When should it be ready?"
+msgstr ""
+
+#: includes/class-examples.php:164
+msgid "Send request"
+msgstr ""
+
+#: includes/class-examples.php:170
+msgid "Almost done: check your request"
+msgstr ""
+
+#: includes/class-examples.php:181
+msgid "Booking request"
+msgstr ""
+
+#: includes/class-examples.php:182
+msgid "Date, time and guests side by side, a summary table, full-width buttons and a check-mark thank-you screen."
+msgstr ""
+
+#: includes/class-examples.php:183
+msgid "Full-width buttons"
+msgstr ""
+
+#: includes/class-examples.php:202
+msgid "Book a table"
+msgstr ""
+
+#: includes/class-examples.php:203
+msgid "We confirm every booking by email."
+msgstr ""
+
+#: includes/class-examples.php:207
+msgid "Date"
+msgstr ""
+
+#: includes/class-examples.php:210
+msgid "Time"
+msgstr ""
+
+#: includes/class-examples.php:213
+msgid "Guests"
+msgstr ""
+
+#: includes/class-examples.php:228
+msgid "Special requests"
+msgstr ""
+
+#: includes/class-examples.php:231
+msgid "Book now"
+msgstr ""
+
+#: includes/class-examples.php:237
+msgid "Your booking"
+msgstr ""
+
+#: includes/class-examples.php:241
+msgid "Check booking"
+msgstr ""
+
+#: includes/class-examples.php:242
+msgid "Confirm booking"
+msgstr ""
+
+#: includes/class-examples.php:243
+msgid "Change"
+msgstr ""
+
+#: includes/class-examples.php:252
+msgid "Japanese contact form (確認画面)"
+msgstr ""
+
+#: includes/class-examples.php:253
+msgid "A Japanese form in the familiar style: input, confirm, done. Required marks are removed on the confirm screen."
+msgstr ""
+
+#: includes/class-examples.php:254
+msgid "Japanese buttons"
+msgstr ""
+
+#: includes/class-examples.php:314
+msgid "Dark theme, two steps"
+msgstr ""
+
+#: includes/class-examples.php:315
+msgid "A dark card with numbered steps and violet buttons. Shows how far the CSS variables go."
+msgstr ""
+
+#: includes/class-examples.php:316
+msgid "Dark colors"
+msgstr ""
+
+#: includes/class-examples.php:335
+msgid "Join the beta"
+msgstr ""
+
+#: includes/class-examples.php:336
+msgid "Two steps, no spam."
+msgstr ""
+
+#: includes/class-examples.php:339
+msgid "You"
+msgstr ""
+
+#: includes/class-examples.php:347
+msgid "Interests"
+msgstr ""
+
+#: includes/class-examples.php:349
+msgid "What will you use it for?"
+msgstr ""
+
+#: includes/class-examples.php:350
+msgid "Work"
+msgstr ""
+
+#: includes/class-examples.php:350
+msgid "Side project"
+msgstr ""
+
+#: includes/class-examples.php:350
+msgid "Learning"
+msgstr ""
+
+#: includes/class-examples.php:352
+msgid "Anything else?"
+msgstr ""
+
+#: includes/class-examples.php:355
+msgid "Join"
+msgstr ""
+
+#: includes/class-examples.php:502
+msgid "This preview is not available."
+msgstr ""
+
+#: includes/class-examples.php:516
+msgid "Please fill out this field."
+msgstr ""
+
+#: includes/class-examples.php:517
+msgid "Please enter an email address."
+msgstr ""
+
+#: includes/class-examples.php:518
+msgid "One or more fields have an error. Please check and try again."
+msgstr ""
+
+#: includes/class-examples.php:519
+msgid "Thank you for your message. It has been sent. (Demo: nothing was sent.)"
+msgstr ""
+
+#: includes/class-examples.php:565
+msgid "You are not allowed to create contact forms."
+msgstr ""
+
+#: includes/class-examples.php:643
+msgid "Sent from [_site_title] ([_site_url])"
+msgstr ""
+
+#: includes/class-form-render.php:231
+#, php-format
+msgid "Step %1$s of %2$s"
+msgstr ""
+
+#: includes/class-form-render.php:233
+#, php-format
+msgid "Step %s"
+msgstr ""
+
+#: includes/class-form-render.php:234
+msgctxt "title of the last step in the progress display"
+msgid "Review"
+msgstr ""
+
+#: includes/class-global-settings.php:57
+msgid "Review"
+msgstr ""
+
+#: includes/class-global-settings.php:58
+msgid "Back"
+msgstr ""
+
+#: includes/class-global-settings.php:60
+msgid "Next"
+msgstr ""
+
+#: includes/class-global-settings.php:61
+msgid "Previous"
+msgstr ""
+
+#: includes/class-help.php:38
+msgid "More information"
+msgstr ""
+
+#: includes/class-help.php:42
+msgid "See example"
+msgstr ""
+
+#. translators:%s: name of another plugin.
+#: includes/class-migration.php:113
+#, php-format
+msgid "Form Steps and \"%s\" are both active."
+msgstr ""
+
+#: includes/class-migration.php:119
+msgid "Both add a confirm step, so forms may behave twice. Keep only one."
+msgstr ""
+
+#. translators:%d: number of forms.
+#: includes/class-migration.php:127
+#, php-format
+msgid "%d form uses [confirm] or [back] tags. Form Steps supports the same tags and classes, so it keeps working after you switch."
+msgid_plural "%d forms use [confirm] or [back] tags. Form Steps supports the same tags and classes, so they keep working after you switch."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-migration.php:137
+msgid "Form Steps supports the same [confirm] and [back] tags and classes, so forms keep working after you switch."
+msgstr ""
+
+#: includes/class-migration.php:139
+msgid "That plugin adds its confirm step without tags. After switching, turn on the confirm screen for your forms on the Form Steps page."
+msgstr ""
+
+#. translators:%s: name of another plugin.
+#: includes/class-migration.php:149
+#, php-format
+msgid "Deactivate \"%s\""
+msgstr ""
+
+#. translators:1: required PHP version, 2: current PHP version.
+#: includes/class-requirements.php:64
+#, php-format
+msgid "PHP %1$s or newer is required. This site runs PHP %2$s."
+msgstr ""
+
+#. translators:%s: required WordPress version.
+#: includes/class-requirements.php:72
+#, php-format
+msgid "WordPress %s or newer is required."
+msgstr ""
+
+#: includes/class-requirements.php:77
+msgid "Contact Form 7 must be installed and active."
+msgstr ""
+
+#. translators:1: required Contact Form 7 version, 2: installed version.
+#: includes/class-requirements.php:82
+#, php-format
+msgid "Contact Form 7 %1$s or newer is required. Version %2$s is installed."
+msgstr ""
+
+#: includes/class-requirements.php:106
+msgid "Form Steps for Contact Form 7 is paused."
+msgstr ""
